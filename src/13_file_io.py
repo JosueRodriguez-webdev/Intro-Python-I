@@ -20,6 +20,5 @@ with open('foo.txt') as foo:
 # sure that it contains what you expect it to contain
 
 # YOUR CODE HERE
-with open('bar.txt') as bar:
-    for text in bar:
-        print(text)
+with open('bar.txt', 'w') as bars:
+    bars.write('hello\n hello again \n hello another time')
